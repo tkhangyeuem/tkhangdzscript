@@ -28,7 +28,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=12523036534"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=893377142"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -213,7 +213,7 @@ local LogoHub = Instance.new("ImageLabel")
     LogoHub.BackgroundTransparency = 1.000
     LogoHub.Position = UDim2.new(0, 5, 0, 1)
     LogoHub.Size = UDim2.new(0, 26, 0, 26)
-    LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(12523036534)
+    LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(893377142)
 
     local ScrollTab = Instance.new("ScrollingFrame")
     ScrollTab.Name = "ScrollTab"
@@ -524,6 +524,7 @@ local tggc = Instance.new("TextLabel")
     tggc.TextColor3 = _G.Color
     tggc.TextSize = 26.000
     tggc.TextXAlignment = Enum.TextXAlignment.Left
+	
 
 local LogoToggle = Instance.new("ImageLabel")
     LogoToggle.Name = "LogoToggle"
@@ -532,7 +533,7 @@ local LogoToggle = Instance.new("ImageLabel")
     LogoToggle.BackgroundTransparency = 1.000
     LogoToggle.Position = UDim2.new(0, 7, 0, 2)
     LogoToggle.Size = UDim2.new(0, 26, 0, 26)
-    LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(12523036534)
+    LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(893377142)
 
             Circle.Name = "Circle"
             Circle.Parent = ToggleImage
@@ -3220,7 +3221,7 @@ end)
 
 print("Load Script")
 
-local Library = Update:Window("           tkhangdz","12523036534",Enum.KeyCode.RightControl);
+local Library = Update:Window("           tkhangdz","893377142",Enum.KeyCode.RightControl);
 
 local H = Library:AddTab("Home","6026568198")
 local Main = Library:AddTab("Level Farm","13075651575")
@@ -6258,7 +6259,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=12523036534",
+							Icon = "http://www.roblox.com/asset/?id=893377142",
 							Duration = 2.5
 						})
 					end
@@ -6270,7 +6271,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=12523036534",
+							Icon = "http://www.roblox.com/asset/?id=893377142",
 							Duration = 2.5
 						})
 					end
@@ -6282,7 +6283,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=12523036534",
+							Icon = "http://www.roblox.com/asset/?id=893377142",
 							Duration = 2.5
 						})
 					end
@@ -6294,7 +6295,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=12523036534",
+							Icon = "http://www.roblox.com/asset/?id=893377142",
 							Duration = 2.5
 						})
 					end
@@ -6304,7 +6305,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=12523036534",
+									Icon = "http://www.roblox.com/asset/?id=893377142",
 									Duration = 2.5
 								})
 							else
@@ -6315,7 +6316,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=12523036534",
+							Icon = "http://www.roblox.com/asset/?id=893377142",
 							Duration = 2.5
 						})
 					end
@@ -8079,7 +8080,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "tkhangdz Hab", 
 					Text = "Full Moon" ,
-					Icon = "http://www.roblox.com/asset/?id=12523036534",
+					Icon = "http://www.roblox.com/asset/?id=893377142",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -8087,7 +8088,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "tkhangdz Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=12523036534",
+					Icon = "http://www.roblox.com/asset/?id=893377142",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -8095,7 +8096,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "tkhangdz Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=12523036534",
+					Icon = "http://www.roblox.com/asset/?id=893377142",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -8103,7 +8104,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "tkhangdz Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=12523036534",
+					Icon = "http://www.roblox.com/asset/?id=893377142",
 					Duration = 2.5
 				})
             else
@@ -15967,13 +15968,13 @@ spawn(function()
 print("tkhangdz Hub Load Complete")
 
 game.StarterGui:SetCore("SendNotification", {
-      Icon = "http://www.roblox.com/asset/?id=12523036534";
+      Icon = "http://www.roblox.com/asset/?id=893377142";
       Title = "tkhangdz Hub", 
       Text = "Welcome To Script!!";
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
-      Icon = "http://www.roblox.com/asset/?id=12523036534";
+      Icon = "http://www.roblox.com/asset/?id=893377142";
       Title = "tkhangdz hub", 
       Text = "made by @miidraayeerng อยาก Yed Owner Zps วะ";
 })
